@@ -1,0 +1,169 @@
+body{
+    background-image: url(../images/papyrus.png);
+    margin: 0;
+}
+
+h1{
+    background-color: #4aaaa5;
+    height: 30px;
+    padding: 20px 10px;
+    float: left;
+    margin: 0;
+    color: white;
+
+
+}
+.headerContainer{
+    width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 100%;
+    border-bottom: solid darkgray 1px;
+    height: 70px;
+    margin-bottom: 60px;
+
+    
+}
+section{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    overflow: auto;
+}
+nav{
+    float: right;
+    padding: 20px 0 0 0;
+}
+a{
+    color: lightgray;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px 0 0;
+}
+img{
+    float: left;
+    padding: 0 15px 15px 0;
+
+}
+footer{
+    width: 100%;
+    background-color:grey;
+    text-align: center;
+    height: 70px;
+    border-top: solid #4aaaa5 5px;
+    margin-top: 215px;
+    color: white;
+    
+}
+.pic{
+    float: left;
+    padding: 10px 10px;
+    
+}
+#pic1{
+    float: left;
+    
+}
+
+#pic2{
+    border: red 1px solid;
+    
+    
+}
+
+#pic3{
+    float: left;
+}
+
+#pic4{
+    float: left;
+}
+
+
+h3{
+    color: white;
+    background-color: #4aaaa5;
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    text-align: center;
+    margin-top: 200px;
+    
+}
+h2{
+    color: #4aaaa5;
+}
+@media screen and (max-width: 988px) {
+    
+    
+    section{
+        width: 100%;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        overflow: auto; }
+        
+    .headerContainer{
+        width: 100%;
+    }    
+
+    
+    
+
+
+}
+@media screen and (max-width: 768px) {
+    
+    
+    section{
+        width: 80%;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        overflow: auto; }
+    .headerContainer{
+        width:80%;
+    }
+
+    
+    
+
+
+}
+@media screen and (max-width: 640px) {
+    
+    
+    section{
+        width: 80%;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        overflow: auto; }
+    .headerContainer{
+        width: 100%;
+        text-align: center;
+    }
+    nav{
+        float: none;
+    }
+    h1{
+        float: none;
+    }
+    .container{
+        width: 80%;
+    }
+    
+
+    
+    
+
+
+}
+
+
+    
